@@ -30,7 +30,7 @@ if scatter_button:
 
     st.write('Creacion de un diagrama de dispersión')
 
-    fig = px.scatter(car_data, x='odometer' y='price')
+    fig = px.scatter(car_data, x='odometer', y='price')
 
     st.plotly_chart(fig, use_container_width=True)
 
